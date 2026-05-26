@@ -90,3 +90,51 @@ input{
     justify-content: space-around;
     align-items: center;
 }
+
+.imagens1{
+    padding: 15px;
+}
+
+.b b{
+    font-size: 170%;
+    position: relative;
+    top: -350px;
+    left: 42.5%;
+}
+
+.i1 img{
+    width: 40%;
+}
+
+.i2 img{
+    width: 29.5%;
+    position: relative;
+    transform: translateY(-131%);
+    left: 41.5%;
+}
+
+.an a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.a1 a{
+    font-size: 120%;
+    position: relative;
+    top: -420px;
+    padding: 19px;
+}
+
+.a2 a{
+    font-size: 100%;
+    position: relative;
+    top: -464px;
+    left: 530px;
+}
+
+.a3 a{
+    font-size: 100%;
+    position: relative;
+    top: -505px;
+    left: 900px;
+}
