@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+@media (max-width: 1024px) {
+    .mamae{
+        flex-direction: column;
+    }
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav{
+    background-color: #FFCD8B;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.input img{
+    width: 30px;
+}
+
+input{
+    outline: none;
+    font-size: 13px;
+    border: none;
+    width: 300px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    padding: 5px;
+    background-color: white;
+    width: 400px;
+    border-radius: 999px;
+    margin-left: 20px;
+}
+
+.ancora img{
+    width: 45px;
+}
+
+.ancora{
+    gap: 5px;
+    margin-right: 20px;
+}
+
+.ancoras a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.ancoras a:hover{
+    color: #FFCD8B;
+}
+
+.ancoras{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    margin-top: 90px;
+    background-color: #FFF58C;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.t b{
+    font-size: 250%;
+}
+
+.t p{
+    margin-top: 5px;
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+}
+
+.t2{
+    margin-top: 15px;
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.um section{
+    margin-top: 170px;
+    background-color: #ffffff;
+    width: 85%;
+    display: flex;
+    margin-left: 8%;
+}
+
+.dois img{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+.dois p{
+    font-size: 1.3em;
+    margin-top: 1.0em;
+}
+
+.div{
+    background-color: #ffffff;
+    width: 70%;
+    margin-left: 15%;
+}
