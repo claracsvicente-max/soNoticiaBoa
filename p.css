@@ -73,10 +73,6 @@ nav{
 }
 
 .ancora{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
     margin-top: 150px;
 
     background-color: rgb(255, 255, 255);
@@ -89,6 +85,10 @@ nav{
 
 .ancora p{
     font-size: 1.3em;
+}
+
+.ancora p:hover{
+    color: #FFCD8B;
 }
 
 .ancora div{
@@ -109,4 +109,22 @@ nav{
         transform: translateX(-100%);
     }
 
+}
+
+.so img{
+    margin-top: 30px;
+    width: 97%;
+}
+
+.so{
+    display: flex;
+    justify-content: center;
+}
+
+.imagens img{
+    width: 40%;
+}
+
+.imagens{
+    padding: 20px;
 }
