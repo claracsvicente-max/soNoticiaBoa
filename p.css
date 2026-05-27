@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+@media (max-width: 1024px){
+    .mamae{
+        flex-direction: column;
+    }
+}
+
+.logo img{
+    width: 8.0em;
+}
+
+.logo b{
+    font-size: 2.5em;
+}
+
+.logo{
+    background-color: #FFCD8B;
+    width: 27em;
+    display: flex;
+    align-items: center;
+}
+
+.in img{
+    width: 2.0em;
+    margin-left: 7px;
+}
+
+.in{
+    background-color: white;
+    width: 25em;
+    border-radius: 99px;
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    margin-right: 18%;
+}
+
+.in input{
+    border: none;
+    font-size: 15px;
+    color: gray;
+    margin-left: 7px;
+}
+
+.logos img{
+    width: 3.0em;
+}
+
+nav{
+    background-color: #FFCD8B;
+    width: 100%;
+    height: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ancora{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 3.0em;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 20px 0;
+}
+
+.ancora p{
+    font-size: 1.3em;
+}
+
+.ancora div{
+    margin-left: 40px;
+    display: inline-flex;
+    gap: 60px;
+
+    animation: rolagem 20s linear infinite;
+}
+
+@keyframes rolagem {
+
+    from{
+        transform: translateX(100%);
+    }
+
+    to{
+        transform: translateX(-100%);
+    }
+
+}
+
+.so img{
+    width: 90%;
+}
