@@ -112,20 +112,169 @@ nav{
 
 }
 
-.so img{
-    margin-top: 30px;
-    width: 97%;
-}
-
 .so{
+    padding: 1.5vw;
     display: flex;
-    justify-content: center;
+    gap: 2.9vw;
 }
 
-.imagens img{
-    width: 40%;
+.i1 img{
+    width: 43vw;
 }
 
-.imagens{
-    padding: 20px;
+.i2 img{
+    width: 50vw;
+    
+}
+
+.i3 img{
+    width: 24vw;
+    margin-top: 2.5vw;
+}
+
+.i{
+    margin-left: 1.7vw;
+}
+
+.bb b{
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+}
+
+.bb p{
+    font-size: 1.5vw;
+    color: white;
+}
+
+.bb{
+    position: relative;
+    transform: translateY(-11.3vw);
+    left: 1.5vw;
+
+    width: 43vw;
+    padding: 1vw;
+
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.9),
+        rgba(0,0,0,0)
+    );
+}
+
+.aa b{
+    font-size: 1.3vw;
+    color: white;
+}
+
+.aa p{
+    color: white;
+}
+
+.aa{
+    position: relative;
+    transform: translateY(-20.1vw);
+    left: 47.4vw;
+
+    width: 24vw;
+    padding: 1vw;
+
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.9),
+        rgba(0,0,0,0)
+    );
+}
+
+.cc{
+    position: relative;
+    transform: translateY(-28.8vw);
+    left: 73.4vw;
+
+    width: 24vw;
+    padding: 1vw;
+
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.9),
+        rgba(0,0,0,0)
+    );
+}
+
+.cc b{
+    color: white;
+    font-size: 1.3vw;
+}
+
+.cc p{
+    color: white;
+}
+
+.dd{
+    position: relative;
+    margin-top:  -59.9vw;
+    left: 47.4vw;
+
+    width: 50vw;
+    padding: 1vw;
+
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.9),
+        rgba(0,0,0,0)
+    );
+}
+
+.dd b{
+    font-size: 1.6vw;
+    color: white;
+}
+
+.dd p{
+    color: white;
+    font-size: 1.2vw;
+}
+
+.ppp{
+    font-size: 2vw;
+}
+
+.pp{
+    font-size: 1.1vw;
+    color: rgb(83, 83, 83);
+}
+
+.pppp{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pai{
+    padding: 1.5vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+
+.filho img{
+    width: 23vw;
+}
+
+.filho a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2vw;
+}
+
+.filho a:hover{
+    color: #FFCD8B;
+}
+
+.filho p{
+    color: rgb(83, 83, 83);
+    margin-top: 6px;
+}
+
+.filho div{
+    background-color: #ffffff;
+    width: 23vw;
 }
